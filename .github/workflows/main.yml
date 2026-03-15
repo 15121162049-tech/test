@@ -23,7 +23,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './teslawave' # 这里填写你网页所在的文件夹，根目录填 '.'
+          path: '.' # 这里填写你网页所在的文件夹，根目录填 '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
