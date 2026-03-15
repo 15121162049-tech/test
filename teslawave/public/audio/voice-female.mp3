@@ -1,0 +1,9 @@
+此文件为占位符，请替换为实际的女声音频文件（MP3格式）
+内容："你好我是智能语音助手"
+
+生成方法：
+1. 使用 Microsoft Edge TTS（推荐）：
+   pip install edge-tts
+   edge-tts --voice zh-CN-XiaoxiaoNeural --text "你好我是智能语音助手" --write-media voice-female.mp3
+
+2. 或访问在线TTS服务：https://ttsfree.com/
