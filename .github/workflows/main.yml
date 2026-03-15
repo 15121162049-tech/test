@@ -22,7 +22,8 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        # 加上 --legacy-peer-deps 参数，它会忽略版本冲突，强制安装
+        run: npm install --legacy-peer-deps
 
       - name: Build project
         run: npm run build
